@@ -1,1 +1,46 @@
-> m
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teks Keren di Tengah</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+      color: white;
+      text-align: center;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #ff6ec4, #7873f5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px rgba(255,255,255,0.3);
+      }
+      to {
+        text-shadow: 0 0 25px rgba(255,255,255,0.8), 
+                     0 0 40px rgba(255,105,180,0.7);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Teks Keren</h1>
+</body>
+</html>
